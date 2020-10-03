@@ -1,7 +1,10 @@
-# moduller hazir olabilir veya kendimiz yaza biliriz
-# hazir modullerin programimiza eklenmesi
-import math # math modulunu kodumuza ekledik
-from math import log2 # math modulunden sadece log2 fonksiyonu eklendi
-from math import* # math modulundeki tum fonksiyonlari kullana biliriz
-print(math.factorial(5))
-print(log2(10))
+# kendi modulumuzu yazmak
+"""
+1. Kendi modulumuzu yazarken, modul dosyasi ve modulu kullanacagimiz kod dosyasi ayni
+klasorde olmalidir
+2. modul dosyamiza fonksiyonlarimizi, istedigimiz scripleri yaziyoruz
+3. Kodumuzda bu modulu kullanmak icin ise:
+   import modul-  yazarak ilave ediyoruz
+
+
+"""
